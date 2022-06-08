@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://www.hallaminternet.com/wp-content/uploads/2020/01/Is-blogging-relevant-anymore.jpeg" alt="Imagem do usuario" width="50px" height= "50px" class= "img-fluid rounded-circle"> 
+          <img src="" alt="Imagem do usuario" width="50px" height= "50px" class= "img-fluid rounded-circle"> 
         </li>
         <li class="nav-item pl-3 font-size: fs-16">
-          <p class="m-0 font-weight-bold text-white">Nome do usuario</p>
+          <p class="m-0 font-weight-bold text-white">{{nome}}</p>
         </li>
 
         <li class="nav-item pl-3">
@@ -22,7 +22,7 @@
 
       <ul class="navbar-nav ml-auto d-flex align-items-center" >
         <li class="nav-item pl-3">
-          <a class="m-0 font-weight-bold text-white">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          <a (click)="sair()" class="m-0 font-weight-bold text-white">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
 
         </li>
 
