@@ -1,0 +1,28 @@
+.btn-verPostagens{
+    background-color: white ;
+    color: black;
+}
+
+.btn-verPostagens:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.btn-novaPostagem{
+    background-color: #f2c121;
+    color: black;
+}
+
+.btn-verPostagens:hover{
+    background-color: #f2c121;
+    color: black;
+
+}
+
+.btn-novaPostagem:hover{
+    background-color: white;
+    color: black;
+
+}
+

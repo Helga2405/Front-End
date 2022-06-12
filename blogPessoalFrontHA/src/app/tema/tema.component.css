@@ -1,0 +1,26 @@
+.btn-verPostagens{
+    background-color: white ;
+    color: #f2e421;
+}
+
+.btn-cadastrar{
+    background-color: #f2c121 ;
+    color: black;
+}
+
+.btn-inicio{
+    background-color: #f2e421 ;
+}
+
+.btn-verPostagens:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.btn-cadastrar:hover{
+    background-color: white;
+    color: black;
+
+}
+
